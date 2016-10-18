@@ -20,7 +20,7 @@ begin
     {$IFDEF USE_MHTOOLTIP}
     Result.btnAbout.Hint.Text := 'About';
     {$ENDIF USE_MHTOOLTIP}
-    Result.btnReset := NewButton( Result.Form, '&Reset' ).SetPosition( 222, 16 ).SetSize( 90, 90 );
+    Result.btnReset := NewButton( Result.Form, 'Re&set' ).SetPosition( 222, 16 ).SetSize( 90, 90 );
     {$IFDEF USE_MHTOOLTIP}
     Result.btnReset.Hint.Text := 'Reset Delphi 10.1';
     {$ENDIF USE_MHTOOLTIP}
